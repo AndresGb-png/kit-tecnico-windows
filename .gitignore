@@ -1,0 +1,16 @@
+# Los ejecutables se publican en Releases, no en el código
+*.exe
+*.pdb
+*.tmp
+*.log
+
+# Datos de clientes y resultados: nunca deben subirse
+Fichas de servicio/
+Respaldo_*/
+Diagnostico_*.html
+Instalacion_*.html
+Reparacion_*.html
+Informe_*.html
+Perfiles/
+Instaladores/
+informe*.html

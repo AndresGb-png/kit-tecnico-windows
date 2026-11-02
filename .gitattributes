@@ -1,0 +1,3 @@
+# El .bat usa una codificación antigua de Windows: no debe alterarse
+*.bat -text
+*.ico binary
