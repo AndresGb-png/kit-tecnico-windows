@@ -25,15 +25,14 @@ Ponlos todos en la misma carpeta: la Ficha de servicio usa `ChequeadorPC.exe` pa
 
 ## Qué tan probado está
 
-Las pruebas se hicieron en un solo equipo: Acer Aspire A515-44 con Windows 10 Pro. Otros modelos y versiones pueden comportarse distinto, así que prueba en un equipo que no sea de un cliente antes de depender de ellos.
+Las pruebas se hicieron en varios equipos con Windows 10 y 11, sin embargo, otros modelos y versiones pueden comportarse distinto, así que prueba en un equipo que no sea de un cliente antes de depender de ellos.
 
 **Aún sin probar de verdad:**
 
-- Windows 11, equipos de escritorio, máquinas virtuales y un Windows recién formateado.
 - Discos SATA y HDD en el Chequeador.
 - En RespaldoPC: un disco dañado, archivos de OneDrive solo en la nube, un disco de otro Windows y la instalación de controladores al restaurar.
-- En PosformateoPC: el botón «Activar winget» y el cambio real de nombre del equipo.
-- En ReparadorPC: «Restablecer la red» y «Programar la reparación del disco».
+- En PosformateoPC: el botón "Activar winget" y el cambio real de nombre del equipo.
+- En ReparadorPC: "Restablecer la red" y "Programar la reparación del disco".
 - En ChequeadorPC: la prueba de cámara y la de pantalla.
 - En FichaServicio: exportar a Excel, hacer copia de seguridad, guardar «Datos de mi negocio» y elegir el logo desde la ventana.
 
