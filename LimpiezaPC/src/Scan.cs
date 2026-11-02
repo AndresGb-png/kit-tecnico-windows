@@ -932,7 +932,7 @@ namespace LimpiezaPC
         public static string Verdict(ScanResult r, out string detail, out string color)
         {
             int sus = r.Items.Count(i => i.Severity == Sev.Suspicious && !i.Disabled), rev = r.Items.Count(i => i.Severity == Sev.Review && !i.Disabled);
-            detail = sus + " sospechosos, " + rev + " para revisar, de " + r.Items.Count + " elementos revisados." + (r.Gaps.Count > 0 ? " Hubo " + r.Gaps.Count + " partes sin revisar del todo." : "");
+            detail = sus + " sospechosos, " + rev + " para revisar, de " + r.Items.Count + " elementos revisados." + (r.Gaps.Count > 0 ? " Partes sin revisar del todo: " + r.Gaps.Count + "." : "");
             if (sus > 0) { color = "#c62828"; return sus == 1 ? "Hay un elemento sospechoso" : "Hay " + sus + " elementos sospechosos"; }
             if (rev > 0) { color = "#a86200"; return rev == 1 ? "Hay un elemento por revisar" : "Hay " + rev + " elementos por revisar"; }
             color = "#1b7f4b";
