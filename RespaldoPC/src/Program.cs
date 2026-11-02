@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 [assembly: System.Reflection.AssemblyTitle("Respaldo y migración")]
 [assembly: System.Reflection.AssemblyProduct("Respaldo y migración")]
-[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersion("1.0.1.0")]
 
 namespace RespaldoPC
 {
@@ -17,7 +17,7 @@ namespace RespaldoPC
         public static readonly Comun.AppInfo Info = new Comun.AppInfo
         {
             Name = "Respaldo y migración",
-            Version = "1.0.0",
+            Version = "1.0.1",
             Description = "Guarda los datos del cliente antes de formatear, comprueba cada copia y los devuelve a un Windows limpio sin sobrescribir nada.",
             Uses = new[]
             {

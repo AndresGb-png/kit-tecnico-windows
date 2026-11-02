@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 [assembly: System.Reflection.AssemblyTitle("Ficha de servicio")]
 [assembly: System.Reflection.AssemblyProduct("Ficha de servicio")]
-[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersion("1.0.1.0")]
 
 namespace FichaServicio
 {
@@ -16,7 +16,7 @@ namespace FichaServicio
         public static readonly Comun.AppInfo Info = new Comun.AppInfo
         {
             Name = "Ficha de servicio",
-            Version = "1.0.0",
+            Version = "1.0.1",
             Description = "Registra clientes, equipos, trabajos, costos y garantías, y genera comprobantes en PDF con el diagnóstico de antes y después.",
             Uses = new[]
             {

@@ -13,7 +13,7 @@ namespace Comun
     public static class Credits
     {
         public const string Author = "Julio Gutiérrez";
-        public const string GitHub = "https://github.com/AndresGb-png?tab=repositories";
+        public const string GitHub = "https://github.com/AndresGb-png/kit-tecnico-windows";
 
         public static string HtmlFooter(AppInfo app)
         {

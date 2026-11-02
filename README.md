@@ -13,6 +13,7 @@ Son portables: cada uno es un solo archivo, no se instala y cabe en una USB. No 
 | **PosformateoPC** | Instala programas por perfiles con winget o desde una carpeta, y aplica ajustes básicos | Probado en un equipo |
 | **ReparadorPC** | Diagnostica Windows y ejecuta las reparaciones habituales, con informe de antes y después | Probado en un equipo |
 | **FichaServicio** | Registra cliente, equipo, trabajo, costos y garantía, y genera comprobantes en PDF | Probado en un equipo |
+| **LimpiezaPC** | Revisa lo que arranca con Windows, señala lo sospechoso y lo desactiva sin borrar nada, con opción de deshacer. Analiza con Windows Defender | Probado en un equipo, sin virus reales |
 | **Optimizador de Windows** | Script que limpia archivos y reduce el uso de RAM, CPU y disco | Sin revisión de pruebas en este repositorio |
 
 ## Descargar
@@ -36,12 +37,14 @@ Las pruebas se hicieron en un solo equipo: Acer Aspire A515-44 con Windows 10 Pr
 - En ReparadorPC: «Restablecer la red» y «Programar la reparación del disco».
 - En ChequeadorPC: la prueba de cámara y la de pantalla.
 - En FichaServicio: exportar a Excel, hacer copia de seguridad, guardar «Datos de mi negocio» y elegir el logo desde la ventana.
+- En LimpiezaPC: virus reales, el análisis completo de Defender y un análisis que encuentre amenazas. Tampoco la detección de cambios en Winlogon, AppInit_DLLs, eventos WMI, extensiones impuestas, accesos directos de navegadores ni el archivo hosts.
 
 ## Limitaciones
 
 - Desde Windows no se puede saber si una ranura de RAM vacía está dañada, ni si un puerto sin nada conectado funciona. El Chequeador lo dice y explica cómo comprobarlo.
 - La temperatura depende de los sensores que el fabricante expone a Windows. En algunos equipos no está disponible.
 - RespaldoPC no copia las contraseñas del navegador ni los programas instalados.
+- LimpiezaPC **no es un antivirus** y no elimina virus. Busca señales en lo que arranca con Windows: «sospechoso» no prueba que haya un virus, y no encontrar nada no prueba que el equipo esté limpio.
 - Algunas funciones requieren permisos de administrador. Los programas los piden al abrirse y, si se rechazan, siguen con lo que puedan.
 
 ## Privacidad
@@ -51,6 +54,7 @@ Ningún programa envía datos a un servidor propio. Sí usan internet en estos c
 - ChequeadorPC y ReparadorPC prueban la conexión con ping a `1.1.1.1` y `8.8.8.8`; ReparadorPC también consulta `www.microsoft.com` y `time.windows.com`.
 - PosformateoPC y RespaldoPC usan winget, que consulta su catálogo.
 - DISM, en ReparadorPC, puede descargar archivos de Windows Update.
+- LimpiezaPC abre VirusTotal con la huella de un archivo solo si pulsas ese botón. El archivo no se sube.
 
 Dos cosas requieren cuidado:
 

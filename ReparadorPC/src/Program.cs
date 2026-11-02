@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 [assembly: System.Reflection.AssemblyTitle("Reparador de Windows")]
 [assembly: System.Reflection.AssemblyProduct("Reparador de Windows")]
-[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersion("1.0.1.0")]
 
 namespace ReparadorPC
 {
@@ -18,7 +18,7 @@ namespace ReparadorPC
         public static readonly Comun.AppInfo Info = new Comun.AppInfo
         {
             Name = "Reparador de Windows",
-            Version = "1.0.0",
+            Version = "1.0.1",
             Description = "Revisa el estado de Windows, propone las reparaciones habituales, las ejecuta una por una y deja un informe de antes y después.",
             Uses = new[]
             {

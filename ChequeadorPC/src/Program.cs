@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 [assembly: System.Reflection.AssemblyTitle("Chequeador de PC")]
 [assembly: System.Reflection.AssemblyProduct("Chequeador de PC")]
-[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersion("1.0.1.0")]
 
 namespace ChequeadorPC
 {
@@ -18,7 +18,7 @@ namespace ChequeadorPC
         public static readonly Comun.AppInfo Info = new Comun.AppInfo
         {
             Name = "Chequeador de PC",
-            Version = "1.0.0",
+            Version = "1.0.1",
             Description = "Revisa el hardware y el sistema del equipo y explica cada resultado en lenguaje sencillo, con datos técnicos para el técnico.",
             Uses = new[]
             {

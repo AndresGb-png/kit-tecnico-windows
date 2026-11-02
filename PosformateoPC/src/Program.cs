@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 [assembly: System.Reflection.AssemblyTitle("Instalador posformateo")]
 [assembly: System.Reflection.AssemblyProduct("Instalador posformateo")]
-[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersion("1.0.1.0")]
 
 namespace PosformateoPC
 {
@@ -19,7 +19,7 @@ namespace PosformateoPC
         public static readonly Comun.AppInfo Info = new Comun.AppInfo
         {
             Name = "Instalador posformateo",
-            Version = "1.0.0",
+            Version = "1.0.1",
             Description = "Instala programas por perfiles, aplica ajustes básicos y deja un informe de lo que quedó instalado en un Windows recién formateado.",
             Uses = new[]
             {
